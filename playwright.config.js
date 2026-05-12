@@ -16,7 +16,6 @@ module.exports = defineConfig({
       use: {
         baseURL: 'https://hh.ru',
         ...devices['Desktop Chrome'],
-        headless: false,
       },
     },
   ],
